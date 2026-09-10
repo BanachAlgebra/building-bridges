@@ -50,23 +50,23 @@ nav a.active {
 /* ---------- Main page width ---------- */
 
 .page {
-  max-width: 760px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 24px 80px;
 }
-
 
 /* ---------- Title area ---------- */
 
 .hero {
   text-align: center;
   padding-top: 115px;
-  margin-bottom: 86px;
+  margin: 0 auto 55px;
+  max-width: 520px;
 }
 
 h1 {
   margin: 0;
-  font-size: clamp(54px, 6vw, 78px);
+  font-size: clamp(46px, 5vw, 60px);
   font-weight: 500;
   line-height: 1;
 }
@@ -97,7 +97,9 @@ h1 {
 /* ---------- Essay ---------- */
 
 article {
-  font-size: 29px;
+  max-width: 740px;
+  margin: 0 auto;
+  font-size: 22px;
   line-height: 1.55;
 }
 
