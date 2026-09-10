@@ -1,0 +1,155 @@
+/* ---------- Page-wide colors and typography ---------- */
+
+:root {
+  --paper: #f7f5ef;
+  --ink: #1f1d19;
+  --muted: #6f695f;
+  --accent: #92372f;
+  --rule: #d8d1c3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "EB Garamond", Georgia, serif;
+}
+
+
+/* ---------- Top navigation ---------- */
+
+.site-header {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 42px 24px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.20em;
+}
+
+nav a.active {
+  color: var(--accent);
+}
+
+
+/* ---------- Main page width ---------- */
+
+.page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+
+
+/* ---------- Title area ---------- */
+
+.hero {
+  text-align: center;
+  padding-top: 115px;
+  margin-bottom: 86px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(54px, 6vw, 78px);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.rule {
+  height: 1px;
+  background: var(--rule);
+  margin: 30px 0 27px;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--muted);
+  font-size: 22px;
+  font-style: italic;
+}
+
+.date {
+  margin-top: 29px;
+  color: var(--muted);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+}
+
+
+/* ---------- Essay ---------- */
+
+article {
+  font-size: 29px;
+  line-height: 1.55;
+}
+
+.section-number {
+  margin-bottom: 17px;
+  text-align: center;
+  color: var(--accent);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+h2 {
+  margin: 0 0 35px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+article p {
+  margin: 0 0 38px;
+}
+
+.drop-cap::first-letter {
+  float: left;
+  margin: 0.05em 0.12em 0 0;
+  color: var(--accent);
+  font-size: 4.2em;
+  line-height: 0.72;
+}
+
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 600px) {
+  .site-header {
+    padding-top: 28px;
+  }
+
+  .hero {
+    padding-top: 70px;
+    margin-bottom: 60px;
+  }
+
+  article {
+    font-size: 23px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+}
