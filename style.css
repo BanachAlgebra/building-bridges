@@ -133,13 +133,14 @@ h2 {
 }
 
 .quote {
-  margin: 0 0 60px;
+  max-width: 500px;
+  margin: 0 auto 40px;
   text-align: center;
   color: var(--muted);
   font-size: 17px;
   font-style: italic;
   font-weight: 350;
-  line-height: 0.60;
+  line-height: 1.40;
 }
   
 article p {
