@@ -1,11 +1,23 @@
 /* ---------- Page-wide colors and typography ---------- */
 
 :root {
-  --paper: #f7f5ef;
-  --ink: #1f1d19;
-  --muted: #6f695f;
-  --accent: #92372f;
-  --rule: #d8d1c3;
+  --bg: #fbf8f1;
+  --ink: #24211c;
+  --muted: #756d5f;
+  --rule: #ded5c4;
+  --accent: #7d2b25;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16150f;
+    --ink: #e8e1d1;
+    --muted: #9b917f;
+    --rule: #322e25;
+    --accent: #d59a86;
+    --mark: #3a301c;
+    --panel: #1d1b14;
+  }
 }
 
 * {
