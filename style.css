@@ -15,8 +15,6 @@
     --muted: #9b917f;
     --rule: #322e25;
     --accent: #d59a86;
-    --mark: #3a301c;
-    --panel: #1d1b14;
   }
 }
 
@@ -26,7 +24,7 @@
 
 body {
   margin: 0;
-  background: var(--paper);
+  background: var(--bg);
   color: var(--ink);
   font-family: "EB Garamond", Georgia, serif;
 }
