@@ -145,6 +145,7 @@ h2 {
   
 article p {
   margin: 0 0 38px;
+  text-indent: 2em;
 }
 
 .drop-cap::first-letter {
@@ -153,10 +154,11 @@ article p {
   color: var(--accent);
   font-size: 3.5em;
   line-height: 0.72;
+  text-indent: 0em;
 }
 
-.indent {
-  text-indent: 2em;
+.no-indent {
+  text-indent: 0em;
 }
 
 /* ---------- Small screens ---------- */
