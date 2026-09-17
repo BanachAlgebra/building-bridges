@@ -157,6 +157,10 @@ article p {
   text-indent: 0em;
 }
 
+.drop-cap {
+  text-indent: 0em;
+}
+
 .no-indent {
   text-indent: 0em;
 }
