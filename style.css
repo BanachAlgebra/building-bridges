@@ -148,6 +148,10 @@ article p {
   text-indent: 2em;
 }
 
+article a {
+  color: var(--accent);
+}
+
 .drop-cap::first-letter {
   float: left;
   margin: 0.05em 0.12em 0 0;
