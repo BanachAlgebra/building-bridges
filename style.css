@@ -115,12 +115,12 @@ article {
 }
 
 .section-number {
-  margin-bottom: 17px;
+  margin-bottom: 22px;
   text-align: center;
   color: var(--accent);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
-  font-weight: 650;
+  font-weight: 600;
 }
 
 h2 {
